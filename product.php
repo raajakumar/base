@@ -5,7 +5,7 @@ class Product_controller extends CI_Controller
     {
         echo "<h1>product details</h1>";
         $this->load->model('product_model');
-        $data['product_id'] = $this->product_model->getProduct_id();
+        $data['product_id'] = $this->product_model();
         $this->load->view("product_view",$data);
     }
 
