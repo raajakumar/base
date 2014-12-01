@@ -8,11 +8,11 @@ class Product_controller extends CI_Controller
         $data['product_id'] = $this->product_model->getProduct_id();
         $this->load->view("product_view",$data);
     }
-    function save()
-    {
-        $this->load->helper('form');
-        $this->load->helper('html');
-        $this->load->model('product_model');
+//        function save()
+//    {
+//        $this->load->helper('form');
+//        $this->load->helper('html');
+//        $this->load->model('product_model');
 
         if($this->input->post('submit'))
         {
