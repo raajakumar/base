@@ -13,7 +13,7 @@ class Product_controller extends CI_Controller
         {
             $this->product_model->save();
         }
-        //$this->load->view("product_view");
+        $this->load->view("product_view");
     }
 }
 ?>
