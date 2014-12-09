@@ -17,4 +17,5 @@ class Product_controller extends CI_Controller
         $this->load->view("product_view");
     }
 }
+echo "test";
 ?>
